@@ -1,1 +1,54 @@
-/target/
+# ── Dependencies ─────────────────────────────
+node_modules/
+package-lock.json.bak
+
+# ── Java / Maven / Gradle build output ───────
+target/
+build/
+bin/
+out/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+
+# ── Test reports & generated artifacts ───────
+allure-report/
+allure-results/
+playwright-report/
+test-results/
+test-output/
+reports/
+newman/
+*.log
+
+# ── Screenshots & screen recordings ──────────
+screenshots/
+recordings/
+*.avi
+*.mp4
+*.webm
+
+# ── IDE / editor ─────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.settings/
+.project
+.classpath
+
+# ── OS cruft ─────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Secrets (never commit) ───────────────────
+.env
+.env.*
+*.pem
+*.p12
+*.jks
+*.keystore
